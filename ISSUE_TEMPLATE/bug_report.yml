@@ -1,0 +1,25 @@
+name: Bug Report
+description: Report a bug in this project
+labels: ["bug"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Bug Description 
+      description: What broke/is currently breaking? Screenshots can be very helpful here. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: severity
+    attributes:
+      label: Severity 
+      description: How bad is the regression? - Low, Medium, High
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What would a fix for the bug look like? Often times it will be to simply repair to the previously valid state of the application 
