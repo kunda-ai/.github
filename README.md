@@ -1,2 +1,2 @@
 # .github
-Repository for shared templates
+Repository for shared templates within the kunda-ai org
